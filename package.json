@@ -4,9 +4,6 @@
   "description": "Kylansito's bot",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js"
   },
@@ -25,6 +22,7 @@
   },
   "homepage": "https://github.com/ZunDubCore/Kylansitos-Bot#readme",
   "dependencies": {
-    "discord.js": "^12.5.1"
+    "discord.js": "^12.5.1",
+    "dotenv": "^8.2.0"
   }
 }
