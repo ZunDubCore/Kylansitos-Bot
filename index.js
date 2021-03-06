@@ -16,7 +16,7 @@ client.on('message', message =>{
     if (message.content === '5' || message.content.toLowerCase() === 'cinco') {
         message.reply('Por el culo te la hinco');
     }
-    if (message.content.endsWith().toLowerCase() === 'uca' || message.content.toLowerCase() === 'ruca'){
+    if (message.content.toLowerCase().endsWith('uca')){
         message.reply('Mi polla con peluca');
     }
     if (message.content.toLowerCase() === 'trece' || message.content === '13'){
