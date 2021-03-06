@@ -13,7 +13,7 @@ client.on('message', message =>{
 
     console.log(message.content);
 
-    if (message.content.content.toLowerCase().endsWith('inco') || message.content === '5') {
+    if (message.content.toLowerCase().endsWith('inco') || message.content === '5') {
         message.reply('Por el culo te la hinco');
     }
     if (message.content.toLowerCase().endsWith('uca')){
