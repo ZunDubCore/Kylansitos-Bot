@@ -1,0 +1,30 @@
+{
+  "name": "kylansitos-bot",
+  "version": "1.0.0",
+  "description": "Kylansito's bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZunDubCore/Kylansitos-Bot.git"
+  },
+  "keywords": [
+    "heroku",
+    "discord.js"
+  ],
+  "author": "Kylansito",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ZunDubCore/Kylansitos-Bot/issues"
+  },
+  "homepage": "https://github.com/ZunDubCore/Kylansitos-Bot#readme",
+  "dependencies": {
+    "discord.js": "^12.5.1"
+  }
+}
