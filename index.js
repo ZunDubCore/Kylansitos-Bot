@@ -13,13 +13,13 @@ client.on('message', message =>{
 
     console.log(message.content);
 
-    if (message.content === '5' || message.content.toLowerCase() === 'cinco') {
+    if (message.content.message.content.toLowerCase().endsWith('inco') || message.content === '5') {
         message.reply('Por el culo te la hinco');
     }
     if (message.content.toLowerCase().endsWith('uca')){
         message.reply('Mi polla con peluca');
     }
-    if (message.content.toLowerCase() === 'trece' || message.content === '13'){
+    if (message.content.toLowerCase().endsWith('rece') || message.content === '13'){
         message.reply('Agárramela que me crece');
     }
     
